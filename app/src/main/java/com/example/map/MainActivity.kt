@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, PermissionsListene
         this.mapboxMap = mapboxMap
         mapboxMap.setStyle(
             Style.Builder().fromUri(
-                "mapbox://styles/mapbox/cjerxnqt3cgvp2rmyuxbeqme7")) {
+                "mapbox://styles/mapbox/satellite-v9")) {
 
             enableLocationComponent(it)
         }
